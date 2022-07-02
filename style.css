@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "gilroy";
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: bisque;
+  border: 5px solid black;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0 300px;
+  justify-content: space-between;
+  margin-left: 250px;
+}
+
+.nav ul li {
+  margin-top: 40px;
+}
+.nav ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+#btn {
+  color: #fff;
+  margin-top: 22px;
+  margin-left: 60px;
+  padding: 18px;
+  background-color: #2e2833;
+  border: none;
+  cursor: pointer;
+}
+
+#i1 {
+  position: absolute;
+  top: 3%;
+  left: 15%;
+  font-size: 400px;
+  color: #332734;
+}
+#n1 {
+  position: absolute;
+  top: 3%;
+  left: 22%;
+  font-size: 450px;
+  /* setting */
+  background-image: url("./Images/city.webp");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+#n2 {
+  position: absolute;
+  top: -5%;
+  left: 36%;
+  font-size: 450px;
+  /* setting */
+  background-image: url("https://images.unsplash.com/photo-1646868776742-6db07ec63738?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+.o1 {
+  position: absolute;
+  top: 18%;
+  left: 52%;
+  border-radius: 45%;
+  background-color: #5ed2d6;
+  width: 220px;
+  height: 200px;
+}
+
+#v1 {
+  position: absolute;
+  top: 0%;
+  left: 65%;
+  font-size: 430px;
+  color: #332734;
+}
+
+#a {
+  position: absolute;
+  top: 39%;
+  left: 18%;
+  font-size: 430px;
+  -webkit-text-stroke: 5px black;
+  color: #fff;
+  font-family: "Assistant", sans-serif;
+}
+#t {
+  position: absolute;
+  top: 43%;
+  left: 34%;
+  font-size: 430px;
+  color: #5ed2d6;
+}
+#i2 {
+  position: absolute;
+  top: 34%;
+  left: 45%;
+  font-size: 430px;
+  color: #332734;
+}
+
+#v2 {
+  position: absolute;
+  top: 50%;
+  left: 54%;
+  font-size: 320px;
+  color: #332734;
+  transform: rotate(-90deg);
+  color: #5ed2d68c;
+  font-weight: 600;
+}
+
+.o2 {
+  position: absolute;
+  top: 55%;
+  left: 53%;
+  border-radius: 45%;
+  background-color: #5ed2d6;
+  width: 220px;
+  height: 200px;
+  /* setting */
+  background-image: url("https://images.unsplash.com/photo-1646866230333-c13179c9c13e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+}
+
+#n3 {
+  position: absolute;
+  top: 30%;
+  left: 67%;
+  font-size: 450px;
+  /* setting */
+  background-image: url("https://images.unsplash.com/photo-1646854277234-f618e1f29b4c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center;
+  background-clip: text;
+  color: transparent;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+}
+
+.year {
+  position: absolute;
+  bottom: 49%;
+  right: 40%;
+}
+.year h1 {
+  font-size: 30px;
+  font-weight: 100;
+}
+.degree {
+  position: absolute;
+  bottom: 43%;
+  left: 4%;
+}
+.degree h1 {
+  font-size: 25px;
+  font-weight: 100;
+}
+.offer {
+  position: absolute;
+  bottom: 22%;
+  right: 6%;
+}
+.offer h1 {
+  font-size: 25px;
+  font-weight: 100;
+}
+
+#arrow {
+  position: absolute;
+  left: 50%;
+  bottom: 0%;
+  transform: translate(-50%, -50%);
+  font-size: 55px;
+}
+
+#doodle {
+  position: absolute;
+  right: 3%;
+  top: 25%;
+  width: 400px;
+  transform: rotate(-110deg);
+}
+#doodle-2 {
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+  width: 120px;
+  transform: rotate(90deg);
+}
+
+/* #a:hover {
+  -webkit-text-stroke: 5px black;
+  color: #fff;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.8s;
+} */
+
+#ast {
+  position: absolute;
+  top: -22%;
+  right: 10%;
+  width: 120px;
+}
+
+.o {
+  position: absolute;
+  top: 3%;
+  left: 5%;
+}
+
+.o img{
+  width: 70px;
+}
+#design {
+  color: #332734;
+  position: absolute;
+  right: -3%;
+  top: 45%;
+  font-family: "gilroy";
+  font-weight: 100;
+  transform: rotate(90deg);
+  font-size: 17px;
+}
+
+#socials {
+  position: absolute;
+  right: 17%;
+  bottom: 3%;
+  font-size: 40px;
+  color: #332734b2;
+}
+
+.ic1 {
+  position: absolute;
+  font-size: 25px;
+  right: 10%;
+}
+
+.ic2 {
+  position: absolute;
+  font-size: 25px;
+  right: 5%;
+}
